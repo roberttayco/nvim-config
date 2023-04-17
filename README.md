@@ -1,3 +1,3 @@
 # Robert's Neovim config
 
-- Using [LazyVim](https://github.com/LazyVim/LazyVim). (Check the [docs](https://lazyvim.github.io/installation))
+- using [LazyVim](https://github.com/LazyVim/LazyVim). (check the [docs](https://lazyvim.github.io/installation))

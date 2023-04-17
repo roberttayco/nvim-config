@@ -44,5 +44,3 @@ require("lazy").setup({
     },
   },
 })
-require("mini.align").setup()
-require("auto-save").setup()

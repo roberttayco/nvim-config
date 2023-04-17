@@ -12,3 +12,6 @@ opt.tabstop = 4
 
 opt.scrolloff = 8
 opt.colorcolumn = "80"
+
+opt.backup = false
+opt.swapfile = false
