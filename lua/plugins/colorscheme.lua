@@ -1,15 +1,21 @@
 -- Set colorscheme
 return {
-	-- add gruvbox
-	{ "ellisonleao/gruvbox.nvim" },
+	-- add and configure gruvbox
+	{
+		"sainnhe/gruvbox-material",
+		config = function ()
+			vim.g.gruvbox_material_foreground = "material"
+			vim.g.gruvbox_material_background = "hard"
+		end
+	},
 
 	-- Configure LazyVim to load gruvbox
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			-- colorscheme = "gruvbox",
+			colorscheme = "gruvbox-material",
 			-- colorscheme = "tokyonight-night",
-			colorscheme = "rose-pine",
+			-- colorscheme = "rose-pine",
 		},
 	},
 }
