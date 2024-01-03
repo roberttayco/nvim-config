@@ -3,6 +3,7 @@
 -- Add any additional options here
 
 vim.g.vim_markdown_frontmatter = 1
+vim.g.autoformat = false
 
 local opt = vim.opt
 
@@ -22,5 +23,5 @@ opt.foldenable     = true
 opt.scrolloff   = 8
 opt.colorcolumn = "80"
 
-opt.backup      = false
-opt.swapfile    = false
+opt.backup   = false
+opt.swapfile = false
